@@ -4,6 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "t1.logging")
 public class LoggingProperty {
+
     /**
      * Enable or disable HTTP logging.
      */
